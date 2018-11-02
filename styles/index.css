@@ -1,3 +1,40 @@
 .bg-blue{
     background-color: #094074;
 }
+.bg-yellow{
+    background-color: #FFDD4A
+}
+.bg-light-blue{
+    background-color: #3C6997;
+}
+.text-light-blue{
+    color: #3C6997;
+}
+.bg-light-gray{
+    background-color:rgba(211, 211, 211, .5);
+}
+.relative{
+    position: relative;
+    display: flex;
+}
+.overlay-header{
+    position: absolute; 
+    text-align: center; 
+    width: 100%; 
+    bottom: 20%;
+    /* background-color: rgba(211, 211, 211, .7); */
+}
+.header{
+    color: white;
+    font-size: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.body{
+    margin-top: 30px;
+}
