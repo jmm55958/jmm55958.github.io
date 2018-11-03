@@ -1,8 +1,8 @@
 .bg-blue{
-    background-color: #094074;
+    background-color: rgba(9, 64, 116, 0.644);
 }
 .bg-yellow{
-    background-color: #FFDD4A
+    background-color: rgba(255, 222, 74, 0.705);
 }
 .bg-light-blue{
     background-color: #3C6997;
@@ -10,8 +10,18 @@
 .text-light-blue{
     color: #3C6997;
 }
-.bg-light-gray{
+.text-black{
+    color: black;
+}
+.bg-trans{
     background-color:rgba(211, 211, 211, .5);
+}
+.bg-light-gray{
+    background-color:rgb(211, 211, 211);
+}
+.bg-image{
+    background-image: url("../images/temp-background.jpg");
+    background-size: auto 772px;
 }
 .relative{
     position: relative;
@@ -28,6 +38,10 @@
     color: white;
     font-size: 50px;
 }
+.header2{
+    color: black;
+    font-size: 30px;
+}
 .fixed{
     position: fixed;
     top: 0;
@@ -36,5 +50,5 @@
     z-index: 1;
 }
 .body{
-    margin-top: 30px;
+    margin-top: 5%;
 }
