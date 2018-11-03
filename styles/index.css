@@ -1,0 +1,54 @@
+.bg-blue{
+    background-color: rgba(9, 64, 116, 0.644);
+}
+.bg-yellow{
+    background-color: rgba(255, 222, 74, 0.705);
+}
+.bg-light-blue{
+    background-color: #3C6997;
+}
+.text-light-blue{
+    color: #3C6997;
+}
+.text-black{
+    color: black;
+}
+.bg-trans{
+    background-color:rgba(211, 211, 211, .5);
+}
+.bg-light-gray{
+    background-color:rgb(211, 211, 211);
+}
+.bg-image{
+    background-image: url("../images/temp-background.jpg");
+    background-size: auto 772px;
+}
+.relative{
+    position: relative;
+    display: flex;
+}
+.overlay-header{
+    position: absolute; 
+    text-align: center; 
+    width: 100%; 
+    bottom: 20%;
+    /* background-color: rgba(211, 211, 211, .7); */
+}
+.header{
+    color: white;
+    font-size: 50px;
+}
+.header2{
+    color: black;
+    font-size: 30px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.body{
+    margin-top: 5%;
+}
